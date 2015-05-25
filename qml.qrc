@@ -5,5 +5,7 @@
         <file>images/particle.png</file>
         <file>ImageParticle.qml</file>
         <file>images/star.png</file>
+        <file>Fireworks.qml</file>
+        <file>images/rocket.png</file>
     </qresource>
 </RCC>
