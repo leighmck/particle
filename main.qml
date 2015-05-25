@@ -24,15 +24,13 @@ Window {
             lifeSpan: 6400
             lifeSpanVariation: 400
             size: 32
-            velocity: AngleDirection {
-                angle: -45
-                angleVariation: 0
-                magnitude: 100
+            velocity: PointDirection {
+                x: 100
+                y: 0
+                xVariation: 0
+                yVariation: 100 / 6
             }
-            acceleration: AngleDirection {
-                angle: 90
-                magnitude: 25
-            }
+
         }
 
         ImageParticle {
